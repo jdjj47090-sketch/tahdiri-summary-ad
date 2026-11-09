@@ -8,7 +8,7 @@ PlayResY: 1920
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Cairo,44,&H00C4D455,&H0000FFFF,&HCC101719,&H00000000,0,0,1,3,1,2,100,100,148,1
+Style: Default,Cairo,58,&H00C4D455,&H0000FFFF,&HCC101719,&H00000000,0,0,1,3,1,2,100,100,148,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
