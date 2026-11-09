@@ -1,0 +1,11 @@
+{
+  "name": "Tahdiri",
+  "primary": "#55d4c4",
+  "secondary": "#0f5f5c",
+  "accent": "#e0a526",
+  "background": "#101719",
+  "text": "#f4f7f6",
+  "font": "assets/fonts/Cairo-Variable.ttf",
+  "logo": "assets/brand/tahdiri-icon.svg",
+  "safe_margin": 96
+}

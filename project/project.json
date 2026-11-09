@@ -1,0 +1,62 @@
+{
+  "output": "../output/tahdiri-summary-ad.mp4",
+  "frame": {
+    "aspect": "9:16",
+    "width": 1080,
+    "fps": 30,
+    "height": 1920
+  },
+  "clips": [
+    {
+      "src": "../assets/stock/study-portrait.mp4",
+      "in": 0,
+      "out": 6.0
+    },
+    {
+      "src": "../assets/stock/study-desk.mp4",
+      "in": 1.5,
+      "out": 6.4
+    },
+    {
+      "src": "../assets/rendered-scenes/summary-screen.mp4"
+    },
+    {
+      "src": "../assets/rendered-scenes/review-screen.mp4"
+    },
+    {
+      "src": "../assets/rendered-scenes/end-card.mp4"
+    }
+  ],
+  "transition": {
+    "type": "fade",
+    "duration": 0.3
+  },
+  "captions": {
+    "ass": "../analysis/captions.ass"
+  },
+  "brand": "brand.json",
+  "audio": {
+    "replace": "../voiceover-original.mp3",
+    "music": "../assets/audio/vastness-mixkit.mp3",
+    "music_volume": -24,
+    "duck": true,
+    "duck_amount": 14,
+    "duck_attack": 180,
+    "duck_release": 600,
+    "music_fade_out": 1.4,
+    "effects": "../assets/audio/transition-effects.wav",
+    "effects_volume": 0
+  },
+  "loudness": {
+    "lufs": -14,
+    "tp": -1
+  },
+  "export": {
+    "preset": "reels",
+    "normalize": true
+  },
+  "check": {
+    "platform": "reels",
+    "content": true
+  }
+}

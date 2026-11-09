@@ -1,0 +1,175 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/data/data/com.termux/files/home/.cache/whisper-models/ggml-base.bin",
+		"language": "ar",
+		"translate": false
+	},
+	"result": {
+		"language": "ar"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2000
+			},
+			"text": " كليوم عدنة معلومات جديدة"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,160",
+				"to": "00:00:04,680"
+			},
+			"offsets": {
+				"from": 2160,
+				"to": 4680
+			},
+			"text": " ودروس أكثر لازم نفهمها وراجعها"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,760",
+				"to": "00:00:10,320"
+			},
+			"offsets": {
+				"from": 5760,
+				"to": 10320
+			},
+			"text": " وحياناً كثرة الصفحات تخلد دراس أصعب وتاخذ من عدنة وكت"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,320",
+				"to": "00:00:12,880"
+			},
+			"offsets": {
+				"from": 10320,
+				"to": 12880
+			},
+			"text": " بسوية تحظيري الموضوع صار أسهل"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,880",
+				"to": "00:00:14,280"
+			},
+			"offsets": {
+				"from": 12880,
+				"to": 14280
+			},
+			"text": " ملاخصات مراتبة"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,280",
+				"to": "00:00:15,640"
+			},
+			"offsets": {
+				"from": 14280,
+				"to": 15640
+			},
+			"text": " ومعلومات مختصرة"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,640",
+				"to": "00:00:18,440"
+			},
+			"offsets": {
+				"from": 15640,
+				"to": 18440
+			},
+			"text": " وأهم الأفكار مجمع ألكب مكان واحد"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,440",
+				"to": "00:00:20,720"
+			},
+			"offsets": {
+				"from": 18440,
+				"to": 20720
+			},
+			"text": " بدل مضيع وقتك بأن صفحات طويلة"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,720",
+				"to": "00:00:23,440"
+			},
+			"offsets": {
+				"from": 20720,
+				"to": 23440
+			},
+			"text": " تجدرت راجع المعلومة وتفهمها طريقة أبصط"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,440",
+				"to": "00:00:24,320"
+			},
+			"offsets": {
+				"from": 23440,
+				"to": 24320
+			},
+			"text": " كل شيء مراتب"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,320",
+				"to": "00:00:25,960"
+			},
+			"offsets": {
+				"from": 24320,
+				"to": 25960
+			},
+			"text": " حتى تكون دراستك أو ضح"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,960",
+				"to": "00:00:27,200"
+			},
+			"offsets": {
+				"from": 25960,
+				"to": 27200
+			},
+			"text": " ومراجعتك أسهل"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,200",
+				"to": "00:00:29,500"
+			},
+			"offsets": {
+				"from": 27200,
+				"to": 29500
+			},
+			"text": " تحظيري خلد راستك أسهل"
+		}
+	]
+}

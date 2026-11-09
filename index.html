@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101719">
+  <meta name="description" content="تحضيري... خلّي دراستك أسهل. شاهد إعلان ميزة الملخصات الدراسية.">
+  <title>تحضيري — خلّي دراستك أسهل</title>
+  <style>
+    :root{color-scheme:dark;--bg:#101719;--panel:#172322;--teal:#55d4c4;--gold:#f2c66d;--ink:#f4f7f6;--muted:#afbfbb}
+    *{box-sizing:border-box} body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 80% 8%,#17403c 0,transparent 38%),var(--bg);color:var(--ink);font-family:system-ui,"Noto Sans Arabic",sans-serif}
+    main{width:min(100% - 32px,760px);margin:auto;padding:36px 0 64px;text-align:center}
+    header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ffffff1a;padding:0 0 22px;margin-bottom:40px}
+    .brand{font-weight:750;font-size:1.2rem;letter-spacing:.02em}.tag{color:var(--teal);font-size:.9rem}
+    h1{font-size:clamp(2rem,7vw,3.5rem);line-height:1.35;margin:0}.lead{color:var(--muted);font-size:1.1rem;margin:12px 0 26px}
+    .player{padding:10px;border:1px solid #55d4c455;border-radius:28px;background:linear-gradient(145deg,#ffffff0d,#ffffff03);box-shadow:0 26px 80px #0007}
+    video{display:block;width:min(100%,360px);max-height:72vh;aspect-ratio:9/16;object-fit:contain;margin:auto;background:#0b1011;border-radius:18px}
+    .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:24px 0}.button{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 22px;border-radius:14px;text-decoration:none;font-weight:700;color:#101719;background:var(--teal)}.button.secondary{color:var(--ink);background:#ffffff12;border:1px solid #ffffff26}
+    .note{font-size:.92rem;line-height:1.8;color:var(--muted);margin:20px auto;max-width:540px}.note strong{color:var(--gold)}
+    footer{margin-top:36px;color:#70817e;font-size:.84rem} a:focus-visible,video:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+  </style>
+</head>
+<body>
+  <main>
+    <header><div class="brand">تحضيري <span aria-hidden="true">/</span> TAHDIRI</div><div class="tag">ملخصات مرتبة • مراجعة أسهل</div></header>
+    <h1>خلّي دراستك أسهل</h1>
+    <p class="lead">شاهد كيف تجمع الملخصات أفكارك في مكان واحد.</p>
+    <div class="player">
+      <video controls playsinline preload="metadata" poster="assets/brand/tahdiri-icon.svg" aria-label="إعلان تحضيري عن الملخصات الدراسية">
+        <source src="output/tahdiri-summary-ad.mp4" type="video/mp4">
+        عذراً، متصفحك لا يدعم تشغيل الفيديو.
+      </video>
+    </div>
+    <div class="actions">
+      <a class="button" href="output/tahdiri-summary-ad.mp4" download>تنزيل الفيديو</a>
+      <a class="button secondary" href="CREDITS.md">مصادر الأصول</a>
+    </div>
+    <p class="note"><strong>محتوى تجريبي للعرض فقط.</strong> النصوص داخل واجهة الهاتف أمثلة عامة، وليست مواداً دراسية أو مقتطفات من المنهج.</p>
+    <footer>تحضيري — خلّي دراستك أسهل</footer>
+  </main>
+</body>
+</html>

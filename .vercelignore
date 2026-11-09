@@ -1,0 +1,9 @@
+analysis/
+assets/stock/
+assets/fonts/
+assets/audio/
+assets/rendered-scenes/
+scenes/
+project/
+create_scenes.py
+voiceover-original.mp3

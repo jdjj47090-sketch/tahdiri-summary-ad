@@ -1,0 +1,120 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "small",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"text": {
+			"ctx": 448,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/data/data/com.termux/files/home/.cache/whisper-models/ggml-small.bin",
+		"language": "ar",
+		"translate": false
+	},
+	"result": {
+		"language": "ar"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,640"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4640
+			},
+			"text": " كل يوم عدنا معلومات جديدة ودروس أكثر لازم نفهمها والراجعها"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,760",
+				"to": "00:00:10,120"
+			},
+			"offsets": {
+				"from": 5760,
+				"to": 10120
+			},
+			"text": " وحيانا كثرة الصفحات تخلي الدراسة أسعب وتاخذ من عدنا وقت"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,360",
+				"to": "00:00:12,800"
+			},
+			"offsets": {
+				"from": 10360,
+				"to": 12800
+			},
+			"text": " بس وية تحضيري الموضوع صار أسهل"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,000",
+				"to": "00:00:15,600"
+			},
+			"offsets": {
+				"from": 13000,
+				"to": 15600
+			},
+			"text": " ملخصات مرتبة ومعلومات مختصرة"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,640",
+				"to": "00:00:18,400"
+			},
+			"offsets": {
+				"from": 15640,
+				"to": 18400
+			},
+			"text": " وأهم الأفكار مجمع إلك بمكان واحد"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,480",
+				"to": "00:00:23,400"
+			},
+			"offsets": {
+				"from": 18480,
+				"to": 23400
+			},
+			"text": " بدلما الضيع وقتك بين صفحات طويلة تقدر تراجع المعلومة وتفهمها بطريقة أبسط"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,480",
+				"to": "00:00:27,160"
+			},
+			"offsets": {
+				"from": 23480,
+				"to": 27160
+			},
+			"text": " كل شيء مرتب حتى تكون دراستك أوضح ومراجعتك أسهل"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,320",
+				"to": "00:00:29,480"
+			},
+			"offsets": {
+				"from": 27320,
+				"to": 29480
+			},
+			"text": " تحضيري خلي دراستك أسهل"
+		}
+	]
+}
